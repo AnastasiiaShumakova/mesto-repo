@@ -55,7 +55,7 @@
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
                 minlength="2"
                 maxlength="40"
-                pattern="^[A-Za-zА-Яа-яЁё\s\-]+$"
+                pattern="^(?=.*[A-Za-zА-Яа-яЁё])[A-Za-zА-Яа-яЁё\s-]+$"
                 required
               />
               <span class="popup__error" id="user-name-error"></span>
